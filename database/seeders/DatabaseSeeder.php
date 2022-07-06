@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
         \App\Models\User::factory(5)->create();
 
         Listing::create([
+        
             'title' => 'Laravel Senior Developer',
             'tags' => 'Laravel, Javascript',
             'company' => 'Acme corp',
